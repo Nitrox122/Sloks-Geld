@@ -1,0 +1,17 @@
+local amount = 9999999999
+
+--
+
+local player = game.Players.LocalPlayer
+
+--
+
+local leaderstats = player:WaitForChild("leaderstats")
+
+--
+
+local Bank = leaderstats:WaitForChild("Bank")
+
+--
+
+Bank.Value = Bank.Value + amount 
